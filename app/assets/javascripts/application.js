@@ -13,4 +13,13 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require vendor-bundle-all
+//= require module-bundle-main
+//= require module-essentials
+//= require module-layout
+//= require module-sidebar
+//= require module-navbar
+//= require module-media
+//= require module-timeline
+//= require module-chat
+//= require module-maps

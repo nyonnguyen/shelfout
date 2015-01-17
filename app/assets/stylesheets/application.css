@@ -9,5 +9,22 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require_tree .
+ 	*= require default
+	*= require module-essentials
+	*= require module-layout
+	*= require module-sidebar
+	*= require module-sidebar-skins
+	*= require module-navbar
+	*= require module-media
+	*= require module-timeline
+	*= require module-cover
+	*= require module-chat
+	*= require module-charts
+	*= require module-maps
+	*= require module-colors-alerts
+	*= require module-colors-background
+	*= require module-colors-buttons
+	*= require module-colors-calendar
+	*= require module-colors-progress-bars
+	*= require module-colors-text
  */
