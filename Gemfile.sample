@@ -3,8 +3,8 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.3'
 
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# Use mysql2 as the database for Active Record
+gem 'mysql2'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -32,9 +32,6 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-# Use omniauth-facebook to authentication
-gem 'omniauth-facebook'
-
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
@@ -47,3 +44,4 @@ gem 'omniauth-facebook'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 gem 'annotate'
+gem 'omniauth-facebook'
